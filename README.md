@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coin Portfolio Tracker
 
-## Getting Started
+Coin Portfolio Tracker is a web application that allows users to track their cryptocurrency investments. Users can add, update, and remove coins from their portfolio and view the distribution of their investments in a pie chart.
 
-First, run the development server:
+## Features
+
+- Add coins to the portfolio with the current price and desired amount.
+- Update the amount of a specific coin in the portfolio.
+- Remove coins from the portfolio.
+- View the distribution of the portfolio in a pie chart.
+- Refresh the coin prices and portfolio distribution every 5 minutes.
+- Responsive design for desktop and mobile devices.
+
+## Technologies Used
+
+- React.js
+- Material UI
+- React Query
+- Chart.js
+- React Hook Form
+- Axios
+
+## Setup
+
+To run this project locally, clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/coin-portfolio-tracker.git
+cd coin-portfolio-tracker
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, start the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git clone https://github.com/your-username/coin-portfolio-tracker.git
+cd coin-portfolio-tracker
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The application will be available at http://localhost:3000.
 
-## Learn More
+## Build and Run for Production
 
-To learn more about Next.js, take a look at the following resources:
+To build the application for production, run the following command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! If you have an idea for an improvement or find a bug, feel free to open an issue or submit a pull request.
